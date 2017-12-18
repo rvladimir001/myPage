@@ -1,0 +1,279 @@
+body {
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+}
+p.salary {
+    font-size: 22px;
+}
+.infoBlock .info li {
+    font-style: italic;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+.infoBlock .info ul {
+     margin-left: -45px; 
+}
+.contactBlock .info li {
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.contactBlock .info ul {
+     margin-left: -50px; 
+}
+ .contactBlock .info li i {
+    font-size: 20px;
+    cursor: pointer;
+}
+.contactBlock .info li a {
+    color: #fff;
+    text-decoration: none;
+}
+ul h3 {
+    margin-bottom: 15px;
+}
+i {
+    margin: 10px;
+}
+.fon {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /* background: url('CCD01.png'); */
+    background-image: url("data:image/png;base64,Q0NEMDEucG5n");
+    background-size: cover;
+    overflow: auto;
+}
+.skill {
+    width: 80%;
+}
+.titleSkill {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.fieldOfActivity {
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    max-width: 220px;
+    padding: 0 30px;
+    background: #000;
+    opacity: 0.7;
+}
+.fieldOfActivity h1 {
+    font-size: 20px;
+}
+.minPanel {
+    display: none;
+    position: fixed;
+    background: #fff;
+    height: 30px;
+    width: 31px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.8;
+    z-index: 10;
+}
+.minPanel>div {
+    margin: 0 auto;
+    width: 25px;
+    height: 5px;
+    border-bottom: 2px solid #000;
+}
+.block {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    animation-name: opac;
+    animation-duration: 1s;
+}
+@keyframes opac {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.communicationsBlock {
+         display: none;   
+}
+.infoBlock {
+    text-align: left;
+    display: none;
+}
+.contactBlock {
+    display: none;
+}
+.info {
+    text-align: justify;
+    font-size: 18px;
+    margin-left: -5%;
+    width: 110%;
+}
+.info p {
+    text-indent: 25px;
+}
+h1 {
+    font-size: 26px;
+    margin-bottom: 0;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+.title {
+    text-align: left;
+}
+h3 {
+    margin: 0;
+    text-align: left;
+    font-size: 18px;
+}
+.leftPanel {
+    position: fixed;
+    background: #000;
+    width: 180px;
+    min-height: 420px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+    z-index: 10;
+}
+.leftPanel:hover {
+    opacity: 0.8;
+}
+.leftPanel ul {
+    margin: 0;
+    padding: 0;
+}
+.leftPanel ul li {
+    font-size: 18px;
+}
+.leftPanel li:hover {
+    background: #fff;
+    color: #000;
+}
+.leftPanel li:active {
+    box-shadow: inset 3px 0px 2px 2px rgba(112, 128, 144, 0.8);
+}
+.active {
+    background: #fff;
+    color: #000 !important;
+}
+    .leftPanel li {
+    color: #fff;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+.bar {
+    margin: 0px auto;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    height: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.progress {
+    background: #4ac34a;
+    height: 20px;
+    }
+
+.progress:hover {
+    background: #2d862d;
+    }
+    .n1 {
+        width: 82%;
+        animation-name: run;
+        animation-duration: 2s;
+    }
+            @keyframes run {
+        from {
+            width: 0%;
+        }
+    }
+    .n2 {
+        width: 65%;
+        animation-name: run;
+        animation-duration: 2s;
+    }
+    .n3 {
+        width: 50%;
+        animation-name: run;
+        animation-duration: 2s;
+    }
+    .n4 {
+        width: 70%;
+        animation-name: run;
+        animation-duration: 2s;
+    }
+    .n5 {
+        width: 2%;
+        animation-name: run;
+        animation-duration: 2s;
+    }
+    .n6 {
+        width: 5%;
+        animation-name: run;
+        animation-duration: 2s;
+    }
+    .progress div {
+        color:#000;
+        text-align: right;
+        margin-right: 3px;
+        font-weight:bold; 
+    }
+    @media only screen and (max-width: 800px){
+        .leftPanel {
+           display: none;
+           opacity: 0.8;
+        }
+        .minPanel {
+            display: block;
+        }
+        .block {
+            width: 70%;
+        }
+    }
+    @media only screen and (min-width: 801px){
+        .leftPanel {
+           display: block;
+           opacity: 0.6;
+        }
+        .minPanel {
+            display: none;
+        }
+        .block {
+            width: 50%;
+        }
+    }
+    @media only screen and (max-height: 350px){
+        .leftPanel ul li {
+           font-size: 14px;
+           padding: 10px;
+        }
+    }
+    @media only screen and (max-height: 300px){
+        .leftPanel ul li {
+           font-size: 12px;
+           padding: 5px;
+        }
+    }
+    @media only screen and (max-height: 250px){
+        .leftPanel ul li {
+           font-size: 12px;
+           padding-top: 0px;
+        }
+        .leftPanel ul li i {
+            display: none;
+        }
+    }
