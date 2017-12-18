@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="создание сайтов, создание сайтов краснодар, сайт-визитка, сайт визитка, сайт-визитку, web-разработка, web-разработка краснодар, frontend-разработчик, frontend разработчик, frontend-разработка, верстка, верстальщик, javascript разработчик, javascript разработчик краснодар, javascript-разработчик, html, css, JQuery">
+    <meta name="description" content="Frontend. Услуги по разработке, доработке и сопровождению сайтов различных форматов.">
+    <title>web-разработка</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/550a8dd594.js"></script>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link href="myStyle.css" rel="stylesheet">
+    <script src="myScript.js"></script>
+</head>
+<body>
+<div class='fon'>
+
+        <header>
+        <div class='fieldOfActivity'>
+            <h1>WEB-РАЗРАБОТКА HTML-ВЕРСТКА</h1>
+            <h2>Рыбин Владимир</h2>
+        </div>
+    </header>
+
+    <div class='minPanel'>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <aside class='leftPanel'>
+        <nav>
+            <ul>
+                <li id='groundBlock' class="active paragraph"><i class="fa fa-user-o" aria-hidden="true"></i><br>Обо мне</li>
+                <li id='infoBlock' class="paragraph"><i class="fa fa-file-text-o" aria-hidden="true"></i><br>Информация и цены</li>
+                <li id='communicationsBlock' class="paragraph"><i class="fa fa-book" aria-hidden="true"></i><br>Портфолио</li>
+                <li id='contactBlock' class="paragraph"><i class="fa fa-address-card" aria-hidden="true"></i><br>Контакты</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section class='groundBlock block'>
+        <h2 class='title'><i class="fa fa-user-circle" aria-hidden="true"></i> Обо мне</h2>
+        <div class='info'>
+            <p>Доброго времени суток! Меня зовут Владимир. Я начинающий frontend разработчик. 
+                Предоставляю услуги по созданию сайтов, наполнению контентом, размещению на хостинге и дальнейшей поддержке.
+                Так же буду рад поучаствовать в интересных open source проектах.</p>
+            <p>В своей работе стараюсь опираться на современные стандарты web-разработки и не перестаю самообучаться.</p>
+        </div>
+        <div class='skill'>
+            <h2 class='titleSkill'><i class="fa fa-book" aria-hidden="true"></i>Навыки в области WEB</h2>
+            <h3>HTML</h2>
+            <div class='bar'>
+                <div title='уже кое-что умею!' class='progress n1'>
+                    <div>85%</div>
+                </div>
+            </div>
+            <h3>CSS</h2>
+            <div class='bar'>
+                <div title='google мне поможет!' class='progress n2'>
+                    <div>75%</div>
+                </div>
+            </div>
+            <h3>JavaScript</h2>
+            <div class='bar'>
+                <div title='продолжаю актично изучать!' class='progress n3'>
+                    <div>65%</div>
+                </div>
+            </div>
+            <h3>JQuery</h2>
+            <div class='bar'>
+                <div title='уже кое-что умею!' class='progress n4'>
+                    <div>80%</div>
+                </div>
+            </div>
+            <h3>PHP</h2>
+            <div class='bar'>
+                <div title='пока только присматриваюсь' class='progress n6'>
+                    <div>3%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class='infoBlock block'>
+        <h2 class='title'><i class="fa fa-file-text-o" aria-hidden="true"></i> Информация и цены</h2>
+        <div class='info'>       
+            <ul>
+                 <h3>В Вашем проекте могут быть реализованы различные инструменты и приемы:<h3> 
+                 <li>фиксированная, адаптивная и резиновая верстка</li>
+                 <li>анимации</li>
+                 <li>интерактив на JavaScript</li>
+                 <li>различные API и виджеты (Яндекс Карты, Яндек Метрика, Google карты, комментарии ВКонтакте и т.д.)</li>
+            </ul>
+            <p>Кроме того, всегда открыт к обсуждению и готов к изучению чего-то нового.</p>
+        </div>
+        <p class='salary'><i class="fa fa-thumbs-up" aria-hidden="true"></i>Одностраничный сайт-визитка - <strong>от 1000р!</strong></p>
+    </section>
+
+    <section class='communicationsBlock block'>
+        <h2 class='title'><i class="fa fa-book" aria-hidden="true"></i> Портфолио</h2>
+        <div class='info'>Cовсем скоро здесь появятся ссылки на готовые проекты.</div>
+    </section>
+
+    <section class='contactBlock block'>
+        <h2 class='title'><i class="fa fa-address-card" aria-hidden="true"></i> Контакты</h2>
+        <div class='info'>
+            <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>г. Краснодар</li>
+                <li><a href="https://vk.com/v_rybin"><i class="fa fa-vk" aria-hidden="true"></i>v_rybin</a></li>
+                <li><a href="mailto:rybinfrontend@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>rybinfrontend@gmail.com</a></li>
+                <li><a href="https://t.me/rybin_vladimir"><i class="fa fa-telegram" aria-hidden="true"></i>@rybin_vladimir</a></li>
+            </ul>
+        </div>
+    </section>
+</div>
+</body>
+</html>
