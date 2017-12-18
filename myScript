@@ -1,0 +1,19 @@
+    $(document).ready(function() {
+        $('.paragraph').on('click', function(){
+            $('.block').hide();
+            var activeId = $(this).attr('id');
+            $('.'+ activeId).show();
+            $('.paragraph').removeClass('active');
+            $(this).addClass('active');
+        });
+        $('body').on('click','.minPanel', function(){
+            $('.leftPanel').show();
+            $('.minPanel').hide();
+        });
+        $('body').on('click', '.leftPanel', function(){
+            if($(window).width()<800) {
+            $('.leftPanel').hide();
+            $('.minPanel').show();
+            }
+        });
+    });
