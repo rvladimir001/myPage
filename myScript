@@ -14,6 +14,16 @@
             if($(window).width()<800) {
             $('.leftPanel').hide();
             $('.minPanel').show();
-            }
-        });
+        }
     });
+    animate();
+    $('.fon').scroll(animate);
+    function animate(){
+        if ($(document).scrollTop() + $(window).height() > $('.n1').offset().top && ($(document).scrollTop() - $('.n1').offset().top) < $('.n1').height())
+            {
+                $('.progress').addClass('animate');
+            } else {
+                $('.progress').removeClass('animate');
+            }
+    }
+});
