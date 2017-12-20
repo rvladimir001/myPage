@@ -9,11 +9,20 @@
         $('body').on('click','.minPanel', function(){
             $('.leftPanel').show();
             $('.minPanel').hide();
+            $('.fon').addClass('forFon');
         });
         $('body').on('click', '.leftPanel', function(){
             if($(window).width()<800) {
             $('.leftPanel').hide();
             $('.minPanel').show();
+            $('.fon').removeClass('forFon');
+        }
+    });
+        $('body').on('click', '.forFon', function(){
+            if($(window).width()<800) {
+            $('.leftPanel').hide();
+            $('.minPanel').show();
+            $('.fon').removeClass('forFon');
         }
     });
     animate();
